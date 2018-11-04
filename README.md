@@ -23,5 +23,25 @@ Keeping things neat and smart.
 
 # API REST
 
-comming soon
+GET /Categories
+GET /Categories/:ID/Products
+GET /Produts/?Search=
+POST /Orders
+PUT /Orders/:ID
+GET /Payment-Paypal
+POST /Checkout
 
+# PayPal API 
+
+You can find their documentation here : https://developer.paypal.com/docs/api/overview/#api-requests
+
+Snap :
+
+This sample request cancels a billing agreement:
+
+curl -v -X POST https://api.sandbox.paypal.com/v1/payments/billing-agreements/I-1TJ3GAGG82Y9/cancel \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer Access-Token" \
+  -d '{
+  "note": "Canceling the profile."
+}'
