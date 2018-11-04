@@ -23,13 +23,13 @@ Keeping things neat and smart.
 
 # API REST
 
-GET /Categories
-GET /Categories/:ID/Products
-GET /Produts/?Search=
-POST /Orders
-PUT /Orders/:ID
-GET /Payment-Paypal
-POST /Checkout
+- GET /Categories
+- GET /Categories/:ID/Products
+- GET /Produts/?Search=
+- POST /Orders
+- PUT /Orders/:ID
+- GET /Payment-Paypal
+- POST /Checkout
 
 # PayPal API 
 
